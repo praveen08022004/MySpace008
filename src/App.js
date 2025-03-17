@@ -84,7 +84,7 @@ I aim to become a Full Stack Developer, building scalable and efficient web appl
 Check out my resume below and feel free to connect with me!
         </p>
         <div className="download-cv">
-  <a href="/praveen Resume.pdf" download="praveen Resume.pdf">Download CV</a>
+  <a href="https://praveen08022004.github.io/MySpace008/praveen%20Resume.pdf" download="praveen Resume.pdf">Download CV</a>
 </div>
 
 
