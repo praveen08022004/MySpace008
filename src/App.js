@@ -48,7 +48,7 @@ const App = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
-    const mailtoLink = `mailto:your-email@example.com?subject=Message from ${formData.get('email')}&body=${formData.get('message')}`;
+    const mailtoLink = `mailto:a.s.praveen2004@gmail.com?subject=Message from ${formData.get('email')}&body=${formData.get('message')}`;
     window.location.href = mailtoLink;
   };
 
