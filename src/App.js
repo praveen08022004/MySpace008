@@ -112,7 +112,7 @@ Check out my resume below and feel free to connect with me!
   <h2>My Projects</h2>
   <div className="project-card">
   <div className="project-details">
-<img src="/praveenportfoliio/images/bg.jpg" alt="Profile" className="project-image" />
+<img src={`${process.env.PUBLIC_URL}/images/bg.jpg`} alt="Profile" className="project-image" />
     <div>
       <h3>Grocessory Management System</h3>
       <p className="project-description">
