@@ -1,6 +1,14 @@
 import { useState, useEffect } from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+<BrowserRouter basename="/MySpace08">
+  <Routes>
+    {/* Your routes */}
+  </Routes>
+</BrowserRouter>
+
 
 const skills = [
   { name: 'HTML', percentage: 90, icon: 'fab fa-html5' },
@@ -105,7 +113,7 @@ Check out my resume below and feel free to connect with me!
   <h2>My Projects</h2>
   <div className="project-card">
   <div className="project-details">
-    <img src="/images/bg.jpg" alt="Project 1" className="project-image" />
+<img src="/praveenportfoliio/images/bg.jpg" alt="Profile" className="project-image" />
     <div>
       <h3>Grocessory Management System</h3>
       <p className="project-description">
@@ -118,7 +126,7 @@ Check out my resume below and feel free to connect with me!
 
   <div className="project-card">
   <div className="project-details">
-    <img src="/images/project2.jpg" alt="Project 2" className="project-image" />
+<img src="/praveenportfoliio/images/bg.jpg" alt="Profile" className="project-image" />
     <h3>Online Store</h3>
     <p>Developed a dynamic e-commerce platform using PHP, integrating MySQL for efficientdatabase management of products, users, and orders. Implemented secure userauthentication, session handling, and input validation to enhance security. Optimizedbackend performance through caching techniques and query optimization..</p>
   </div>
@@ -129,7 +137,7 @@ Check out my resume below and feel free to connect with me!
       <section id="contact">
         <h2>Contact Me</h2>
         <form 
-  action="mailto:a.s.praveen2004@gmail.com" 
+action="https://formsubmit.co/a.s.praveen2004@gmail.com"
   method="post" 
   encType="text/plain"
 >

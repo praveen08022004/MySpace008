@@ -1,5 +1,5 @@
 {
-  "homepage": "https://praveen08022004.github.io/praveenportfoliio",
+  "homepage": "https://praveen08022004.github.io/MySpace008",
   "name": "praveen-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router-dom": "^7.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
