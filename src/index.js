@@ -6,7 +6,7 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <BrowserRouter basename="/praveenportfoliio">
-    <App />
-  </BrowserRouter>
+  <BrowserRouter basename="/MySpace008">
+  <App />
+</BrowserRouter>
 );
